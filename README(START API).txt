@@ -1,2 +1,0 @@
-npm install json-server
-npm run serverUp
