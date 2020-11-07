@@ -1,0 +1,45 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "Test title!!!",
+      "author": "Test User",
+      "text": "Test question?",
+      "creationTime": "2001-01-01T01:01:01",
+      "answerCount": 4,
+      "viewCount": 61
+    },
+    {
+      "id": 2,
+      "title": "Some title!!!",
+      "author": "Some User",
+      "text": "Some question?",
+      "creationTime": "2010-10-10T10:10:10",
+      "answerCount": 1,
+      "viewCount": 10
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "author": "Some User",
+      "text": "Some answer",
+      "creationTime": "2002-02-02T02:02:02",
+      "questionId": 1
+    },
+    {
+      "id": 2,
+      "author": "Test User",
+      "text": "Test answer",
+      "creationTime": "2003-03-03T03:03:03",
+      "questionId": 1
+    },
+    {
+      "id": 3,
+      "author": "Test User",
+      "text": "Test answer",
+      "creationTime": "2004-04-04T04:04:04",
+      "questionId": 2
+    }
+  ]
+}

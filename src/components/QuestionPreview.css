@@ -1,0 +1,46 @@
+h1 h2 h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.preview_container {
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 120px;
+}
+
+.info {
+  height: 100%;
+  border-right: 1px solid black;
+  width: 100px;
+  float: left;
+}
+
+.answers,
+.views {
+  padding: 6px;
+  text-align: center;
+}
+
+.views {
+  height: 48px;
+}
+
+.answers {
+  border-bottom: 1px solid black;
+  height: 47px;
+}
+
+.preview_body {
+  padding: 5px 5px 5px 110px;
+}
+
+.preview_body a {
+  color: rgb(34, 113, 139);
+}
+
+.questionDetail {
+  float: right;
+  padding-top: 40px;
+}
